@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.digit{
+    font-size: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-container{
+    text-align: center;
+}
+.button-container .btn{
+    padding: 10px 39px;
+    margin-top: 12px;
+    cursor: pointer;
+    box-shadow: 0px 0px 85px 1px white;
+    border: none;
+    border-radius: 18px;
+ }
+
+
+.button-container  #start{
+    background-color: lightgreen;
+}
+.button-container  #stop{
+    background-color: skyblue;
+}
+.button-container  #reset{
+    background-color: red;
+}
+
+.stopwatch .container{
+    text-align: center;
+}
+
+
+
+@media(max-width:532px){
+    .digit {
+        font-size: 70px;
+    }
+    .button-container .btn {
+        padding: 8px 24px;
+    }
+}
+@media(max-width:418px){
+    .digit {
+        font-size: 60px;
+    }
+}
+@media(max-width:348px){
+    .digit {
+        font-size: 50px;
+    }
+    .button-container .btn {
+        padding: 7px 18px;
+    }
+}
+@media (max-width:291px){
+ .digit{
+    font-size: 38px;
+}
+.button-container .btn {
+    padding: 6px 13px;
+}
+}
+
+@media (max-width:249px){
+    .digit{
+       font-size: 30px;
+   }
+   .button-container .btn {
+    padding: 4px 12px;
+  }
+   }
+
+@media (max-width: 210px){
+.digit {
+    font-size: 18px;
+}
+.button-container .btn {
+    padding: 3px 8px;
+  }
+}
